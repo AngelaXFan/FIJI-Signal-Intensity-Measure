@@ -7,7 +7,7 @@ Dialog.create("Maximum Brightness Value")
 
 //Set Threshold Value
 Dialog.create("Threshold Value")
-		Dialog.addMessage("If converting from a 12 or 16 bit image to 8 bit, enter the appropriate maximum brightness value");
+		Dialog.addMessage("Enter a Threshold Brightness Value to denote as positive");
 			Dialog.addNumber("Threshold Value", "");
 			Dialog.show();
 			threshold_value = Dialog.getNumber();
